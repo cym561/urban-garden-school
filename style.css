@@ -272,8 +272,9 @@ img{
 
 /*read*/
 .read-image{
-  max-width: 300px;
-  width: 30%;
+ /* max-width: 300px;*/
+  width: 20%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
