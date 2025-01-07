@@ -42,7 +42,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 40px;
-  top: 1px;
+  margin-top: -4px;
 }
 
 .nav-links a {
@@ -285,6 +285,7 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+  margin-bottom: 5px;
 }
 .reader-image{
  /* max-width: 300px;*/
@@ -294,6 +295,7 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+  margin-bottom: 5px;
 }
 
 
