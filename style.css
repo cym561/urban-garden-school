@@ -272,8 +272,8 @@ img{
 
 /*read*/
 .read-image{
-  max-width: 600px;
-  width: 40%;
+  max-width: 300px;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
