@@ -58,17 +58,17 @@ header {
 
 /* Hero Section */
 .hero {
-  display: flex;
+  /*display: flex;
   
   justify-content: space-between;
-  
+  */
   align-items: center;
   padding: 2rem 1rem;
   background: #b7babd;
 }
 
 .hero-content {
-  max-width: 40%;
+  max-width: 100%;
   
 }
 .hero h1{
