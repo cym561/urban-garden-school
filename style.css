@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-  margin-top: -7px;
+  margin-top: -4px;
   font-size: 20px;
   color: #0e8d0a;
 }
@@ -42,7 +42,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 40px;
-  top: 10px;
+  top: 8px;
 }
 
 .nav-links a {
@@ -50,6 +50,7 @@ header {
   font-size: 14px;
   color: #1acf14;
   transition: color 0.3s ease;
+ 
 }
 
 .nav-links a:hover {
@@ -73,9 +74,9 @@ header {
 }
 .hero h1{
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
-  bottom: 30px;
+  bottom: 10px;
 }
 .hero h4 {
   font-size: 16px;
@@ -84,7 +85,7 @@ header {
 
 .hero p {
   margin-bottom: 1.5rem;
-  font-size: 10px;
+  font-size: 18px;
   color: black;
 
 }
@@ -103,16 +104,10 @@ header {
 .btn-overlay:hover {
   background: #005500;
 }
-/*
-.hero-image img {
-  max-width: 60%;
-  height: auto;
-  position: relative;
-  border-radius: 8px;
-  bottom: 250px;
-  left: 90px;
+.dive{
+  margin-top: 10px;
+  font-size: 20px;
 }
-*/
 
 .courses{
    background-color: white;
