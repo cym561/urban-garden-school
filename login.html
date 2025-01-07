@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins&family=playfair Display+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+   
+    <div class="login">
+      <h2>Log into your account</h2>
+        <form id="registration-page" action="#" method="post" >
+            <!-- <label for="email" class="input-login">Email:</label> --->
+            <input type="email" name="email" id="email" class="input-login" placeholder=" &#9993; Your email"/>
+            
+            <br> <br>
+           <!-- <label for="password" class="input-login">Password:</label> -->
+           <input type="password" name="password" id="password" class="input-login" placeholder="🗝password"/>
+           <span class="eye-icon" id="togglePassword()" onclick="togglePassword">👁</span>
+            <br> <br>
+            <button type="submit" href="courses.html" class="login-button">Login</button>
+            <p class="forgot-password" href="#">
+              Forgot Password?
+            </p>
+        </form> <br>
+        <p class="home-page">
+            <a href="courses.html" >Go back to home-page</a>
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
