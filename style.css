@@ -298,7 +298,9 @@ header {
   margin-bottom: 5px;
 }
 
-
+.f-read h3{
+  margin-top: 5px;
+}
   @media screen and (max-width: 567px){
     .container{
       text-align: center;
