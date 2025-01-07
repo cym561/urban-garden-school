@@ -42,7 +42,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 40px;
-  top: 4px;
+  top: 1px;
 }
 
 .nav-links a {
@@ -279,7 +279,7 @@ header {
 /*read*/
 .read-image{
  /* max-width: 300px;*/
-  width: 50%;
+  width: 80%;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -288,7 +288,7 @@ header {
 }
 .reader-image{
  /* max-width: 300px;*/
-  width: 50%;
+  width: 80%;
   height: auto;
   display: flex;
   justify-content: space-between;
