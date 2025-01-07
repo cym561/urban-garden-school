@@ -21,8 +21,8 @@ header {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
+ /* display: flex;
+  justify-content: space-between;*/
   align-items: center;
 }
 
@@ -58,9 +58,11 @@ header {
 
 /* Hero Section */
 .hero {
-  display: flex;
-  align-items: center;
+ /* display: flex;
+  
   justify-content: space-between;
+  */
+  align-items: center;
   padding: 2rem 1rem;
   background: #b7babd;
 }
@@ -101,7 +103,7 @@ header {
 .btn-overlay:hover {
   background: #005500;
 }
-
+/*
 .hero-image img {
   max-width: 60%;
   height: auto;
@@ -110,7 +112,7 @@ header {
   bottom: 250px;
   left: 90px;
 }
-
+*/
 
 .courses{
    background-color: white;
