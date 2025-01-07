@@ -42,7 +42,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 40px;
-  top: 8px;
+  top: -8px;
 }
 
 .nav-links a {
