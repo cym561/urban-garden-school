@@ -42,7 +42,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 40px;
-  margin-top: -4px;
+  margin-top: -5px;
 }
 
 .nav-links a {
@@ -279,7 +279,7 @@ header {
 /*read*/
 .read-image{
  /* max-width: 300px;*/
-  width: 80%;
+  width: 90%;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -289,7 +289,7 @@ header {
 }
 .reader-image{
  /* max-width: 300px;*/
-  width: 80%;
+  width: 90%;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -299,7 +299,7 @@ header {
 }
 
 .f-read h3{
-  margin-top: 5px;
+  margin-top: 10px;
 }
   @media screen and (max-width: 567px){
     .container{
