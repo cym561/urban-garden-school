@@ -21,3 +21,9 @@ function togglePassword() {
         eyeIcon.textContent = "👁";
     }
 }
+
+document.getElementById('admissionsForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    alert('Your Application Has Been Submitted');
+    window.location.href = '/';
+  });
