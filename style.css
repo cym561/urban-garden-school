@@ -43,7 +43,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 10px;
-  margin-top: -8px;
+  margin-top: -10px;
 }
 
 .nav-links a {
@@ -135,7 +135,7 @@ header {
     }
 
 .container{
-  margin-left: -8px;
+  margin-left: -18px;
   align-items: start;
   background-color: #83ca81;
   width: 100%;
