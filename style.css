@@ -137,8 +137,8 @@ header {
 .container{
   margin-left: -18px;
   align-items: start;
-  background-color: #83ca81;
-  width: 100%;
+ 
+  max-width: 100%;
 }
 
   h1{
