@@ -135,8 +135,9 @@ header {
     }
 
 .container{
-  padding: 10px 0px;
-  background-color: #1acf14;
+  
+  background-color: #83ca81;
+  width: 100%;
 }
 
   h1{
