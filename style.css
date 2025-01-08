@@ -135,7 +135,7 @@ header {
     }
 
 .container{
-  
+  align-items: start;
   background-color: #83ca81;
   width: 100%;
 }
