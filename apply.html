@@ -8,89 +8,81 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
  
-    <link rel="stylesheet" href="style.css">
-    <title>Apply</title>
-</head>
-<body>
-   
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Urban Admissions Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #f4f4f9;
-    }
+   <!--- <link rel="stylesheet" href="style.css">-->
+   <title>Urban Admissions Form</title>
+   <style>
+     body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background-color: #f4f4f9;
+     }
+ 
+     .form-container {
+       background: #fff;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       width: 600px;
+     }
+ 
+     h1, p {
+       text-align: center;
+       color: #333;
+     }
+ 
+     form {
+       display: flex;
+       flex-direction: column;
+     }
+ 
+     label {
+       margin-bottom: 5px;
+       font-weight: bold;
+       color: #555;
+     }
+ 
+     input, select {
+       padding: 10px;
+       margin-bottom: 15px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       font-size: 14px;
+     }
+ 
+     input[type="radio"] {
+       margin-right: 10px;
+     }
+ 
+     .radio-group {
+       display: flex;
+       align-items: center;
+     }
+ 
+     .radio-group label {
+       margin-right: 20px;
+     }
+ 
+     button {
+       background-color: #007BFF;
+       color: white;
+       padding: 10px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       font-size: 16px;
+     }
+ 
+     button:hover {
+       background-color: #0056b3;
+     }
+   </style>
+ </head>
 
-    .form-container {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 600px;
-    }
-
-    h1, p {
-      text-align: center;
-      color: #333;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    label {
-      margin-bottom: 5px;
-      font-weight: bold;
-      color: #555;
-    }
-
-    input, select {
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-
-    input[type="radio"] {
-      margin-right: 10px;
-    }
-
-    .radio-group {
-      display: flex;
-      align-items: center;
-    }
-
-    .radio-group label {
-      margin-right: 20px;
-    }
-
-    button {
-      background-color: #007BFF;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
 <body>
   <div class="form-container">
     <h1>URBAN GARDEN ADMISSIONS FORM</h1>
