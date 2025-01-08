@@ -336,6 +336,15 @@ header {
 .f-read h3{
   margin-top: 10px;
 }
+
+.foot{
+  background: #2a7a2a;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
   @media screen and (max-width: 567px){
     .container{
       text-align: center;
