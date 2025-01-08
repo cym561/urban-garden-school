@@ -141,6 +141,9 @@ header {
  box-sizing: border-box;
   width: 100%;
 }
+.container img{
+  margin-right: 17px;
+}
 .container p{
   margin-right: 17px;
 }
