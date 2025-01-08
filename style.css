@@ -43,7 +43,7 @@ header {
   display: flex;
   gap: 1.5rem;
   right: 10px;
-  margin-top: -6px;
+  margin-top: -8px;
 }
 
 .nav-links a {
