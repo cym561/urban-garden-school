@@ -27,3 +27,10 @@ document.getElementById('admissionsForm').addEventListener('submit', function (e
     alert('Your Application Has Been Submitted');
     window.location.href = '/';
   });
+
+  const mobileMenu = document.getElementById("mobile-menu");
+const nav = document.querySelector("nav");
+
+mobileMenu.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
