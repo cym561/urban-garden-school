@@ -29,7 +29,7 @@ header {
 .logo {
   margin-top: -1px;
   
-  font-size: 20px;
+  font-size: 17px;
   color: #0e8d0a;
 }
 
@@ -75,12 +75,13 @@ header {
 }
 .hero h1{
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bolder;
-  bottom: 10px;
+  bottom: 20px;
 }
 .hero h4 {
-  font-size: 16px;
+  font-size: 26px;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
@@ -108,13 +109,16 @@ header {
 }
 .sign-btn{
   text-decoration: none;
-  color: #1acf14;
+  color:rgb(6, 91, 248);
+  font-size: 20px;
 }
 
 
 .dive{
   margin-top: 10px;
   font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .courses{
